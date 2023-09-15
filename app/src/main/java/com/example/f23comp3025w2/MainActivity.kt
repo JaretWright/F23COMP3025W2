@@ -18,6 +18,8 @@ class MainActivity : AppCompatActivity() {
         //step 3 - connect the view to binding root
         setContentView(binding.root)
 
-        
+        binding.button.setOnClickListener {
+            
+        }
     }
 }
